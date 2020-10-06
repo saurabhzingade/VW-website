@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Contact us</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            
+            body{
+                color: white;
+                background-color: black;
+            }
+            .img-container {
+    float: left;
+     width: 25.33%;
+    padding: 5px;
+    }
+
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .clearfix{
+        margin-left: 15%;
+}
+    .needs-validation{
+        background-color: white;
+    }
+    .insideform{
+        width: 500;
+        height: 300;
+    }
+        </style>
+    </head>
+    <body>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <center><img src="css/logo.jpg" height="40px"></center>
+            <a href="main.html">Home </a>
+            <a href="book.html">Book online</a>
+            <a href="car.html">Car catalogue</a>
+            
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ MENU</button>  
+            <hr>  
+          </div>   
+        <center> 
+            <img src="css/logo.jpg" height="350" width="600">    
+        </center>
+        <hr>  
+        <center><h1>You feedback is <b>Valuable to us</b></h1></center>
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="css/call.jpg" style="width:100%">
+        <center><h4><b>Toll free number</b></h4>
+        <h6>18001020909</h6></center>
+        </div>
+        <div class="img-container">
+        <img src="css/mail.jpg"  style="width:100%">
+        <center><h4>Write to us</h4>
+        <h6>customer.care@volkswagen.co.in</h6></center>
+       
+        </div>
+        <div class="img-container">
+            <img src="css/mail.jpg"  style="width:100%">
+            <center><h4>Reach us</h4>
+            <h6>Andheri east,Mumbai-400009</h6></center>
+           
+        </div>
+
+    </div>
+
+    <center><h1>Fill in<b> your details below</b> </h1></center>
+    <br>
+    <hr>
+    <form class="needs-validation">
+        <center>
+        <br>
+        <div class="insideform">
+        <input type="text" class="form-control is-valid" id="validationServer013" placeholder="First name*" required> <br>
+        <input type="text" class="form-control is-valid" id="validationServer023" placeholder="Last name*" required> <br>
+        <input type="email" class="form-control is-valid" id="validationServer033" placeholder="Email id*" required> <br>
+        <input type="tel" class="form-control is-valid" id="validationServer43" placeholder="Mobile number*" required> <br>    
+        <input type="text"  class="form-control is-valid" id="validationServer053" placeholder="Message*" required> <br>
+        
+    </center>    
+    </div>
+    <center> <button class="btn btn-primary btn-sm" type="submit">Submit form</button></center>
+    </form>
+        <center>
+            <a href="main.html">
+            <button type="button" class="btn btn-primary btn-lg">return back</button>
+            </a>
+        </center>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>VW website</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            .needs-validation{
+        background-color: white;
+    }
+    .insideform{
+        width: 500;
+        height: 300;
+    }
+    .dropdown{
+        width:500;
+        height: 20;
+        
+    }
+        </style>
+    </head>
+    <body>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <center><img src="css/logo.jpg" height="40px"></center>
+            <a href="car.html">Car catalogue</a>
+            <a href="main.html">Home</a>
+            <a href="contact.html">Contact</a>
+            
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ MENU</button>  
+            <center><img src="css/logo.jpg" height="400" width="600"> </center>
+            <hr>  
+        
+            <form class="needs-validation">
+                <center>
+                <br>
+                <div class="insideform">
+                <input type="text" class="form-control is-valid" id="validationServer013" placeholder="First name*" required> <br>
+                <input type="text" class="form-control is-valid" id="validationServer023" placeholder="Last name*" required> <br>
+                <input type="email" class="form-control is-valid" id="validationServer033" placeholder="Email id*" required> <br>
+                <input type="tel" class="form-control is-valid" id="validationServer43" placeholder="Mobile number*" required> <br>    
+                <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Click here to choose your car
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">VW POLO</button>
+    <button class="dropdown-item" type="button">VW POLO GT</button>
+    <button class="dropdown-item" type="button">VW TIGUAN ALLSPACE</button>
+    <button class="dropdown-item" type="button">VW T-ROC</button>
+    <button class="dropdown-item" type="button">VW VENTO</button>
+  </div>
+</div>
+<br>
+                <center> <button class="btn btn-primary btn-sm" type="submit">Submit form</button></center><br>
+            </form>
+            </center>    
+            </div>
+           
+                <center>
+                    <a href="main.html">
+                    <button type="button" class="btn btn-primary btn-lg">return back</button>
+                    </a>
+                </center>
+    </body>
+</html>
